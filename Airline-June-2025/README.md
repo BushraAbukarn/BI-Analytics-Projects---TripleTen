@@ -10,7 +10,7 @@ This externship project was designed to strengthen data analysis and visualizati
 - MySQL for querying and data cleaning
 - Tableau for dashboard creation and visualization
 
-🧪 Analysis & Methodology
+## 🧪 Analysis & Methodology
 We utilized SQL to compute descriptive statistics for flight duration. The flights ranged from 4.7 to 9.5 hours, with an average of 7.3 hours.
 Based on these insights, we created a new column called flight_length, categorizing flights into short, medium, and long groups for deeper analysis.
 We then exported the cleaned dataset to Tableau, where we developed a side-by-side bar chart to visualize the average requests for meals and preferred seats across different flight length categories.
