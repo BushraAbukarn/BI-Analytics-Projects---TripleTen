@@ -5,6 +5,6 @@
 | 3 | [E-Commerce Company (May 2025)](./E-Commerce-Company-May-2025) | Pending |
 | 4 | [SuperStore Consult (June 2025)](./SuperStore-Consult-June-2025) | Pending |
 | 5 | [SuperStore Return (June 2025)](./SuperStore-Return-June-2025) | Pending |
-| 6 | [Airline (June 2025)](./Airline-June-2025) | Pending |
+| 6 | [Airline (June 2025)](./Airline-June-2025) | The purpose of this dataset is to analyze customer behavior related to booking patterns, identify trends that can support marketing strategies, optimize pricing models, and enhance demand forecasting to increase revenue. |
 | 7 | [Shopify (August 2025)](./Shopify-August-2025) | Pending |
 | 8 | [Zomato (August 2025)](./Zomato-August-2025) | Pending |
