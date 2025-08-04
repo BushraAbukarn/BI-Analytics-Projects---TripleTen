@@ -1,18 +1,19 @@
 ## 📌 Purpose
-The purpose of this dataset is to analyze customer behavior related to booking patterns, identify trends that can support marketing strategies, optimize pricing models, and enhance demand forecasting to increase revenue.
-
-## 🎯 Key Objectives
-1. What marketing factors can attribute to customer preferences?
-2. What routes generated the most demand?
-3. How do flight durations affect purchase spending?
+This externship project was designed to strengthen data analysis and visualization skills by working collaboratively with a real-world Airline Booking dataset. The primary goal was to formulate business-relevant questions and answer them using SQL for data extraction and Tableau for visual storytelling. Each team member independently explored one key question—ranging from identifying marketing factors influencing customer preferences, analyzing high-demand flight routes, to examining how flight durations impact purchase behavior—while contributing to a cohesive analytical narrative.
 
 ## 👥 Team Members
 - Bushra Abukarn
 - Brenya Griffin
 - Prerak Shah
+  
 ## 🛠️ Tools & Technologies
 - MySQL for querying and data cleaning
 - Tableau for dashboard creation and visualization
+
+🧪 Analysis & Methodology
+We utilized SQL to compute descriptive statistics for flight duration. The flights ranged from 4.7 to 9.5 hours, with an average of 7.3 hours.
+Based on these insights, we created a new column called flight_length, categorizing flights into short, medium, and long groups for deeper analysis.
+We then exported the cleaned dataset to Tableau, where we developed a side-by-side bar chart to visualize the average requests for meals and preferred seats across different flight length categories.
 
 
 ## Dashboards 
