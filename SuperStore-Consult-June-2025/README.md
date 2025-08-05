@@ -63,7 +63,7 @@ Leveraged MySQL to handle missing and duplicate data, perform transformations, a
 
 ---
 
-### Dashboards
+## 📊 Dashboards
 
 <img width="1427" height="799" alt="image" src="https://github.com/user-attachments/assets/dad48732-c0c7-4da6-a668-0d7e93596957" />
 
