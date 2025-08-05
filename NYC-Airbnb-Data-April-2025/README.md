@@ -1,4 +1,6 @@
 ## ✨Manhattan Vacation Rental Market
+[View Google Sheet]([https://docs.google.com/spreadsheets/your-link-here](https://docs.google.com/spreadsheets/d/1MtJv3uERwiACS2chHkvgo4Mwr8rWZj_qho4cizu5o1k/edit?usp=sharing)
+
 ## 🎯 Executive Summary
 This analysis aims to evaluate the Manhattan vacation rental market to identify the most promising property types for investment. Specifically, we seek to answer the following questions: 
 - Which neighborhoods and property size (i.e., number of bedrooms) are most attractive for vacation rentals?
