@@ -6,6 +6,7 @@ This project involves exploratory data analysis using a PostgreSQL database cont
 ## 🗂️ Database Schema
 The Zuber Database
 Description of the data
+
 A database with info on taxi rides in Chicago:
 ### neighborhoods table: data on city neighborhoods
 - `neighborhood_id`: Unique identifier for each neighborhood
