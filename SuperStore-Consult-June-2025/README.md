@@ -12,7 +12,7 @@
 ---
 ## 📊 Dataset Description
 - `Row ID`: Unique identifier for each row of data
-- - `Order ID`: Unique identifier for each order 
+- `Order ID`: Unique identifier for each order 
 - `Order Date`: The date the order was placed 
 - `Ship Date`: The date the order was shipped 
 - `Ship Mode`: Method of shipment (e.g., Standard Class, First Class) 
