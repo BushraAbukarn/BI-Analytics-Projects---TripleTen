@@ -62,12 +62,12 @@
   - Ranked sub-categories by total profit.
 
 - **Data Visualization**
-- Exported the cleaned and aggregated data from SQL into **Power BI**.  
-- Created interactive dashboards and visual summaries to explore key business metrics, including:  
-  - Sales and profit trends over time and by season  
-  - Performance comparison across regions, states, and customer segments  
-  - Product category and sub-category profitability  
-  - Shipping mode usage and delivery performance  
+ - Exported the cleaned and aggregated data from SQL into **Power BI**.  
+ - Created interactive dashboards and visual summaries to explore key business metrics, including:  
+   - Sales and profit trends over time and by season  
+   - Performance comparison across regions, states, and customer segments  
+   - Product category and sub-category profitability  
+   - Shipping mode usage and delivery performance  
 - Used a variety of charts (bar charts, line graphs, heat maps, and pie charts) to highlight patterns and support decision-making.  
 
 
