@@ -60,20 +60,14 @@ Zuber, a new ride-sharing company launching in Chicago, aims to understand passe
   - `weather_conditions`
 - Exclude rides with **missing weather data**.
 
----
-
-## 🛠 Tools Used
-- SQL (PostgreSQL syntax)
-- PostgreSQL database
-- Jupyter Notebook (optional for running queries interactively)
-
----
 
 ## ✅ Outcome
 This analysis will help Zuber:
 - Understand company popularity trends
 - Assess customer behavior in relation to weather and time
 - Make informed operational decisions before launching in Chicago
+
+--- 
 
 ## 🗂️ Database Schema
 The Zuber Database
