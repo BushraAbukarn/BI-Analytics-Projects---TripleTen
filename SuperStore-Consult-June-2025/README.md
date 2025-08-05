@@ -43,7 +43,7 @@ ________________________________________________________________________________
 
 ### Dashboards
 
-![image](https://github.com/user-attachments/assets/de4b8114-1200-45d5-aa3a-f4d98bd49121)
+[image](https://github.com/user-attachments/assets/de4b8114-1200-45d5-aa3a-f4d98bd49121)
 
 ![image](https://github.com/user-attachments/assets/f14dca90-5a96-46e5-aa80-f7c0e29e5760)
 
