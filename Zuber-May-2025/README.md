@@ -3,7 +3,7 @@
 Zuber, a new ride-sharing company launching in Chicago, aims to understand passenger preferences and evaluate how external factors influence ride patterns. I plan to achieve this by performing a series of analytical tasks using SQL queries.
 
 ## 🗂️ Database Schema
-The Zuber Database
+The Zuber database contains 4 different datasets:
 
 ### Neighborhoods Table: data on city neighborhoods
 - `neighborhood_id`: Unique identifier for each neighborhood
