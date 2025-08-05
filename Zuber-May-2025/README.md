@@ -39,6 +39,7 @@ The Zuber Database
 - Filter by date: **November 15–16, 2017**
 - Sort by `trips_amount` in **descending** order.
 <img width="924" height="368" alt="image" src="https://github.com/user-attachments/assets/526cb433-0bb5-4f04-b589-7c4826694756" />
+
 ---
 
 ### 2. Rides by "Yellow" or "Blue" Taxi Companies (Nov 1–7, 2017)
@@ -46,6 +47,7 @@ The Zuber Database
 - Filter by date: **November 1–7, 2017**
 - Group results by `company_name`.
 <img width="834" height="247" alt="image" src="https://github.com/user-attachments/assets/b1bee4a2-20a9-4215-90d1-791a31af9bd5" />
+
 ---
 
 ### 3. Top Companies vs. Others (Nov 1–7, 2017)
@@ -56,11 +58,13 @@ The Zuber Database
 - Filter by date: **November 1–7, 2017**
 - Group by company name and sort by `trips_amount` in **descending** order.
 <img width="741" height="224" alt="image" src="https://github.com/user-attachments/assets/948ea7de-bf49-4e64-91ba-d2235ed5ab3b" />
+
 ---
 
 ### 4. Neighborhood Identifiers
 - Retrieve the identifiers of the **O'Hare** and **Loop** neighborhoods from the `neighborhoods` table.
 <img width="672" height="178" alt="image" src="https://github.com/user-attachments/assets/a9d3070c-c971-4db8-870a-07e47eecde5e" />
+
 ---
 
 ### 5. Hourly Weather Conditions Classification
@@ -69,6 +73,7 @@ The Zuber Database
   - `"Good"` otherwise
 - Use the `CASE` operator for classification.
 <img width="747" height="250" alt="image" src="https://github.com/user-attachments/assets/cfbe8185-6dca-4adf-bf23-0dcead257ebc" />
+
 ---
 
 ### 6. Loop to O'Hare Rides on Saturdays with Weather Info
