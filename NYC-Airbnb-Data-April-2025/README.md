@@ -11,10 +11,7 @@ This project is based on two raw datasets containing Airbnb listing information.
 ### Raw Data 1 – Listing Details
 - `id`: Unique identifier for each listing  
 - `neighborhood`, `neighborhood_clean`, `neighborhood_group`: Geographic details about the listing location  
-- `latitude`, `longitude`: Geospatial coordinates of the listing  
-- `property_type`: Type of property (e.g., Apartment, House)  
 - `room_type`: Type of room offered (e.g., Entire home/apt, Private room)  
-- `accommodates`: Number of guests the listing can accommodate  
 - `bathrooms`, `bathrooms_text`: Number and type of bathrooms  
 - `bedrooms`, `bedrooms_clean`: Number of bedrooms  
 - `beds`: Number of beds  
