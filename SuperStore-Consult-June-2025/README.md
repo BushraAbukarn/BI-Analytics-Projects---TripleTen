@@ -34,7 +34,14 @@
  
 ---
 ## 🧪 Methodology
-Leveraged MySQL to handle missing and duplicate data, perform transformations, and integrate datasets from Superstore sales. Created aggregated tables to provide deeper insights and enhance data analysis.
+**1. Data Cleaning**
+Utilized SQL to handle missing values, remove duplicates, correct data inconsistencies, and standardize date and categorical formats. Also created calculated fields (e.g., profit margin, shipping delay).
+
+**2. Data Analysis**
+Performed descriptive analysis using SQL to compute aggregations, segment performance, and uncover trends across different dimensions (e.g., time, region, category).
+
+**3. Data Visualization**
+Exported the cleaned and aggregated data into Tableau/Power BI to build interactive visualizations and support insight generation.
 
 --- 
 
