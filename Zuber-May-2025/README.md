@@ -1,9 +1,9 @@
-🛺 The Zuber Database
-📋 Project Description
+## 🛺 The Zuber Database
+### 📋Project Description
 This project involves exploratory data analysis using a PostgreSQL database containing information on taxi rides in Chicago. The database includes details on rides, cabs, weather, and city neighborhoods.
 
-🗂️ Database Schema
 
+## 🗂️ Database Schema
 The Zuber Database
 Description of the data
 A database with info on taxi rides in Chicago:
