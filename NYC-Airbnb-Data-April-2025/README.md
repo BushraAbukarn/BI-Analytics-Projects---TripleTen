@@ -28,6 +28,22 @@ This project is based on two raw datasets containing Airbnb listing information.
 2. A new column called revenue earned was added to the calendar data. if the property was booked, revenue_earned is set to the adjusted price; otherwise, it's set to $0.
 3. In the listings data, added a new column also called revenue using SUMIF to pull in total earnings from the 30-day calendar data matching the listing ID.
 4. Created the following pivot tables: Total Number of Reviews by Neighborhood, Number of Listings by Bedroom Count, and Total Revenue by Listing ID.
-## 🔍 Key Findings
-## 💡 Recommendations
+## 📌 Key Findings and Recommendations
+
+### 🔍 Key Findings
+- The **Lower East Side**, **Hell's Kitchen**, and **Harlem** were the top-performing neighborhoods in terms of total reviews, suggesting high guest activity and popularity.
+- **Lower East Side** had an overwhelming share of **1-bedroom listings** (86%), indicating it’s a prime location for solo travelers or couples.
+- **Hell's Kitchen** had the highest proportion of **2-bedroom listings** (45%), suggesting strong demand for mid-sized accommodations.
+- **Midtown** and **Nolita** saw a dominance of **studio (0-bedroom)** listings, likely catering to business travelers or short-term stays.
+- The top three revenue-generating listings earned:  
+  - **$29,940** (ID: 49946551)  
+  - **$26,100** (ID: 44267714)  
+  - **$22,800** (ID: 6833395)  
+  These high revenues suggest strong performance, possibly due to location, pricing strategy, and listing quality.
+
+### 💡 Recommendations
+- **Optimize listing types by neighborhood**: In areas like the Lower East Side, emphasize well-designed 1-bedroom units. In Midtown or Nolita, focus on differentiating studio listings with standout amenities or flexible pricing.
+- **Encourage hosts to adopt data-informed pricing models**: Listings generating the most revenue likely use competitive pricing and maintain high occupancy. Tools such as dynamic pricing could help other hosts replicate this success.
+- **Highlight high-performing listings as benchmarks**: Airbnb can spotlight top earners and their characteristics (location, room type, review rating) to guide new hosts in listing strategy.
+- **Consider tailoring Airbnb’s host onboarding recommendations by neighborhood** to align property type with demand patterns, enhancing both host success and guest satisfaction.
 
