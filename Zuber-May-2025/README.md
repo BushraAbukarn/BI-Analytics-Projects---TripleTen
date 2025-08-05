@@ -2,12 +2,78 @@
 ### 📋Project Description
 Zuber, a new ride-sharing company launching in Chicago, aims to understand passenger preferences and evaluate how external factors influence ride patterns. I plan to achieve this by performing a series of analytical tasks using SQL queries.
 
-1. Print the company_name field. Find the number of taxi rides for each taxi company for November 15-16, 2017, name the resulting field trips_amount and print it, too. Sort the results by the trips_amount field in descending order. |
-2. Find the number of rides for every taxi companies whose name contains the words "Yellow" or "Blue" for November 1-7, 2017. Name the resulting variable trips_amount. Group the results by the company_name field. |
-3. For November 1-7, 2017, the most popular taxi companies were Flash Cab and Taxi Affiliation Services. Find the number of rides for these two companies and name the resulting variable trips_amount. Join the rides for all other companies in the group "Other." Group the data by taxi company names. Name the field with taxi company names company. Sort the result in descending order by trips_amount. |
-4. Retrieve the identifiers of the O'Hare and Loop neighborhoods  from the neighborhoods table. |
-5. For each hour, retrieve the weather condition records from the weather_records table. Using the CASE operator, break all hours into two groups: Bad if the description field contains the words rain or storm, and Good for others. Name the resulting field weather_conditions. The final table must include two fields: date and hour (ts) and weather_conditions. |
-6. Retrieve from the trips table all the rides that started in the Loop (pickup_location_id: 50) on a Saturday and ended at O'Hare (dropoff_location_id: 63). Get the weather conditions for each ride. Use the method you applied in the previous task. Also, retrieve the duration of each ride. Ignore rides for which data on weather conditions is not available. |
+
+## 📊 SQL Tasks
+
+### 1. Company Ride Counts (Nov 15–16, 2017)
+- Retrieve the number of taxi rides per company.
+- Output: `company_name`, `trips_amount`
+- Filter by date: **November 15–16, 2017**
+- Sort by `trips_amount` in **descending** order.
+
+---
+
+### 2. Rides by "Yellow" or "Blue" Taxi Companies (Nov 1–7, 2017)
+- Count the number of rides for companies whose names contain **"Yellow"** or **"Blue"**.
+- Output: `company_name`, `trips_amount`
+- Filter by date: **November 1–7, 2017**
+- Group results by `company_name`.
+
+---
+
+### 3. Top Companies vs. Others (Nov 1–7, 2017)
+- Identify the number of rides for:
+  - **Flash Cab**
+  - **Taxi Affiliation Services**
+  - Group all **other companies** under `"Other"`
+- Output: `company`, `trips_amount`
+- Filter by date: **November 1–7, 2017**
+- Group by company name and sort by `trips_amount` in **descending** order.
+
+---
+
+### 4. Neighborhood Identifiers
+- Retrieve the identifiers of the **O'Hare** and **Loop** neighborhoods from the `neighborhoods` table.
+- Output: `neighborhood_name`, `neighborhood_id`
+
+---
+
+### 5. Hourly Weather Conditions Classification
+- From the `weather_records` table, classify weather as:
+  - `"Bad"` if the `description` contains `"rain"` or `"storm"`
+  - `"Good"` otherwise
+- Use the `CASE` operator for classification.
+- Output: `date`, `hour (ts)`, `weather_conditions`
+
+---
+
+### 6. Loop to O'Hare Rides on Saturdays with Weather Info
+- From the `trips` table, retrieve rides that:
+  - **Start in the Loop** (`pickup_location_id = 50`)
+  - **End at O’Hare** (`dropoff_location_id = 63`)
+  - Occur on **Saturdays**
+- Join with weather data using the classification from Task 5.
+- Output:
+  - `ride_id`
+  - `pickup_time`
+  - `duration`
+  - `weather_conditions`
+- Exclude rides with **missing weather data**.
+
+---
+
+## 🛠 Tools Used
+- SQL (PostgreSQL syntax)
+- PostgreSQL database
+- Jupyter Notebook (optional for running queries interactively)
+
+---
+
+## ✅ Outcome
+This analysis will help Zuber:
+- Understand company popularity trends
+- Assess customer behavior in relation to weather and time
+- Make informed operational decisions before launching in Chicago
 
 ## 🗂️ Database Schema
 The Zuber Database
