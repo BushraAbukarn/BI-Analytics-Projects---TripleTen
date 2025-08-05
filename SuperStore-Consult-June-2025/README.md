@@ -10,12 +10,34 @@
 7.	Profit Contribution by Customer Segment
 
 ---
-## 🧪 Analysis & Methodology
 ## 📊 Dataset Description
+ `Row ID`: Unique identifier for each row of data 
+ `Order ID`: Unique identifier for each order 
+ `Order Date`: The date the order was placed 
+ `Ship Date`: The date the order was shipped 
+ `Ship Mode`: Method of shipment (e.g., Standard Class, First Class) 
+ `Customer ID`: Unique identifier for the customer 
+ `Customer Name`: Full name of the customer 
+ `Segment`: Type of customer  
+ `Country/Region`: Country or region where the order was placed 
+ `City`: City of the customer 
+ `State`: State of the customer 
+ `Postal Code`: Postal/ZIP code 
+ `Region`: Geographical region (e.g., East, West) 
+ `Product ID`: Unique identifier for each product 
+ `Category`: Main category of the product (e.g., Furniture, Technology) 
+ `Sub-Category`: Sub-category of the product (e.g., Chairs, Phones) 
+ `Product Name`: Name or description of the product 
+ `Sales`: Revenue generated from the sale 
+ `Quantity`: Number of units sold 
+ `Discount`: Discount applied to the sale (in decimal form, e.g., 0.2 for 20%)
+ `Profit`: Profit earned from the sale
+ 
+---
+## 🧪 Methodology
 Leveraged MySQL to handle missing and duplicate data, perform transformations, and integrate datasets from Superstore sales. Created aggregated tables to provide deeper insights and enhance data analysis.
 
-
----
+--- 
 
 ## 🔍 Key Findings
 -	Between 2019 and 2022, the Superstore generated $2.29 million in revenue but only $283.35 thousand in profit, highlighting a significant gap between sales and profitability, particularly during peak sales periods. While sales show a consistent upward trend, the relatively slow growth in profits might be concerning.
