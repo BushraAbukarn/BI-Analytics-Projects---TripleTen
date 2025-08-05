@@ -34,14 +34,42 @@
  
 ---
 ## 🧪 Methodology
-**1. Data Cleaning**
-Utilized SQL to handle missing values, remove duplicates, correct data inconsistencies, and standardize date and categorical formats. Also created calculated fields (e.g., profit margin, shipping delay).
 
-**2. Data Analysis**
-Performed descriptive analysis using SQL to compute aggregations, segment performance, and uncover trends across different dimensions (e.g., time, region, category).
+- **Database Setup:**  
+  Connected to the `sales_data` database and renamed the imported raw data table to `order_info` for clarity.
 
-**3. Data Visualization**
-Exported the cleaned and aggregated data into Tableau/Power BI to build interactive visualizations and support insight generation.
+- **Data Cleaning:**  
+  - Converted `Order_Date` and `Ship_Date` columns to proper `DATE` format.  
+  - Deleted records with missing order dates to ensure data integrity.  
+  - Identified and removed duplicate records based on `Product_ID` and `Order_ID` using window functions and CTEs.
+
+- **Data Transformation:**  
+  Created a summary table `sales_by_season` categorizing sales and profit by year and season (Winter, Spring, Summer, Fall) for seasonal trend analysis.
+
+- **Descriptive Analytics:**  
+  - Analyzed shipment modes by counting total shipments per mode.  
+  - Calculated average sales and profits by product category.  
+  - Identified top 10 products by total profit and products with the lowest profits.  
+  - Calculated profit margins by sub-category to evaluate product profitability.
+
+- **Data Integration:**  
+  Merged `customer_data` and `order_info` tables into `sales_summary` to combine customer segments with sales data.
+
+- **Further Analysis on Combined Data:**  
+  - Computed average sales and profit by state.  
+  - Summarized total profits by region and customer segment.  
+  - Identified best-selling products in the East region.  
+  - Ranked sub-categories by total profit.
+
+- **Data Visualization**
+- Exported the cleaned and aggregated data from SQL into visualization tools such as **Tableau** or **Power BI**.  
+- Created interactive dashboards and visual summaries to explore key business metrics, including:  
+  - Sales and profit trends over time and by season  
+  - Performance comparison across regions, states, and customer segments  
+  - Product category and sub-category profitability  
+  - Shipping mode usage and delivery performance  
+- Used a variety of charts (bar charts, line graphs, heat maps, and pie charts) to highlight patterns and support decision-making.  
+- Enabled filtering and drill-down features in dashboards for deeper analysis by stakeholders.
 
 --- 
 
