@@ -1,6 +1,5 @@
-## ✨SuperStore Sales Analysis
-## 🎯 Purpose
-### Business Objectives: 
+# ✨SuperStore Sales Analysis
+## 🎯 Business Objectives: 
 1.	Seasonal Sales Performance Analysis
 2.	Customer Shipping Method Preferences
 3.	Top Performing Products and Categories by Profitability
