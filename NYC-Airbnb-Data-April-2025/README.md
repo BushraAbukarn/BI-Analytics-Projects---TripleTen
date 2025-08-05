@@ -27,7 +27,7 @@ This project is based on two raw datasets containing Airbnb listing information.
 
 ## 🧪 Analysis & Methodology
 1. Cleaned raw data: hide unnecessary columns, standardized the neighborhood values using TRIM() and PROPER() functions; stored in a new column:  nighborhood_clean, and cleaned the bedrooms column by replacing empty space with 0 using IF() function.
-2. A new column called revenue earned was added to the calendar data. if the property was booked, revenue_earned is set to the adjusted price; otherwise, it's set to $0.
+2. A new column called revenue earned was added to the calendar data. If the property was booked, revenue_earned is set to the adjusted price; otherwise, it's set to $0.
 3. In the listings data, added a new column also called revenue using SUMIF to pull in total earnings from the 30-day calendar data matching the listing ID.
 4. Created the following pivot tables: Total Number of Reviews by Neighborhood, Number of Listings by Bedroom Count, and Total Revenue by Listing ID.
 
