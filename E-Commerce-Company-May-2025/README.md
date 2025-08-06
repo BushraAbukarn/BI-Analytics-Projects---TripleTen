@@ -74,8 +74,8 @@ Added three new columns in `purchase_activity`:
 #### 📈 Calculate Retention Rates
 - Created a new sheet `retention_rates`.
 - Structured a table mirroring `cohort_analysis` but excluded month 0.
-- Used the formula:
+- Used the formula: Retention Rate = Users at Age n / Users at Age 0
 
 ## 🔍 Key Findings
-- The data reveals a strong conversion from shopping cart to purchase at 35.61%, but only 10.34% of users who viewed a product completed a purchase. 
-- Customer retention tends to decrease over time, with the highest retention in the first month and clear downward trend by the third and fourth months. 
+- The data reveals a strong conversion from shopping cart to purchase at **35.61%**, but only **10.34%** of users who viewed a product completed a purchase. 
+- Customer retention tends to **decrease** over time, with the highest retention in the first month and clear downward trend by the third and fourth months. 
