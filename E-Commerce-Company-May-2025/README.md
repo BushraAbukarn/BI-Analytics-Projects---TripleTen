@@ -77,4 +77,5 @@ Added three new columns in `purchase_activity`:
 - Used the formula:
 
 ## 🔍 Key Findings
-## 💡 Recommendations
+- The data reveals a strong conversion from shopping cart to purchase at 35.61%, but only 10.34% of users who viewed a product completed a purchase. 
+- Customer retention tends to decrease over time, with the highest retention in the first month and clear downward trend by the third and fourth months. 
