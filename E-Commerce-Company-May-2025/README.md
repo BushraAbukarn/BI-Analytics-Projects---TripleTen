@@ -6,14 +6,12 @@
 
 The dataset captures user behavior on an e-commerce platform. It includes the following fields:
 
-| Column Name     | Description                                                  |
-|------------------|--------------------------------------------------------------|
-| `user_id`        | Unique customer identifier                                   |
-| `event_type`     | Type of user activity (e.g., view, cart, purchase)           |
-| `category_code`  | Product category associated with the user activity           |
-| `brand`          | Brand or company of the product                              |
-| `price`          | Price of the product in USD                                  |
-| `event_date`     | Date of the activity in `YYYY-MM-DD` format                  |
+- `user_id`; Unique customer identifier                                   
+- `event_type`; Type of user activity (e.g., view, cart, purchase)
+- `category_code`; Product category associated with the user activity 
+- `brand`; Brand or company of the product   
+- `price`; Price of the product in USD                
+- `event_date`; Date of the activity in `YYYY-MM-DD` format             
 
 ---
 
