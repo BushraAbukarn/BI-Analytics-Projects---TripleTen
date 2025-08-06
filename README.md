@@ -5,6 +5,5 @@
 | 3 | [E-Commerce Company (May 2025)](./E-Commerce-Company-May-2025) | Pending |
 | 4 | [SuperStore Consult (June 2025)](./SuperStore-Consult-June-2025) | This project aims to explore ways to organically increase profits by utilizing SQL and Power BI to analyze key areas such as customer segments, top-selling products, seasonal sales performance, profit by state, and preferred shipping methods. |
 | 5 | [SuperStore Return (June 2025)](./SuperStore-Return-June-2025) | Pending |
-| 6 | [Airline (June 2025)](./Airline-June-2025) | The purpose of this dataset is to analyze customer behavior related to booking patterns, identify trends that can support marketing strategies, optimize pricing models, and enhance demand forecasting to increase revenue. |
-| 7 | [Shopify (August 2025)](./Shopify-August-2025) | Pending |
-| 8 | [Zomato (August 2025)](./Zomato-August-2025) | Pending |
+| 6 | [Shopify (August 2025)](./Shopify-August-2025) | Pending |
+| 7 | [Zomato (August 2025)](./Zomato-August-2025) | Pending |
