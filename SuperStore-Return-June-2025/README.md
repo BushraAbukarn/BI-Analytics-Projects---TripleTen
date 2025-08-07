@@ -28,7 +28,7 @@ The dataset includes two primary tables:
 ### 1. Data Preparation
 
 - Performed a **LEFT JOIN** between the `Orders` and `Returns` tables.  
-- Created a calculated field to encode returned orders:  
+- Created a calculated field (Return_Flag) to encode returned orders:  
   - `Returned = 1` if "Yes", and `0` if null.  
 - This enabled calculation of **return rate** as an average of the returned flag.
 
@@ -51,7 +51,7 @@ The dataset includes two primary tables:
 3. The third chart indicates that the return rates tend to increase during the **Fall season** from 2018 to 2021. This trend may be associated with back-to-school season, where higher purchase volumes of school supplies could lead to more returns.
    
 ### Analysis for the second dashboard: 
-1. The first chart shows that the **Technology category*8 has the highest return rate compared to other product categories. 
+1. The first chart shows that the **Technology category** has the highest return rate compared to other product categories. 
 2. The second chart highlights a positive correlation between **total sales and total returns in sub-categories** such as Phones and Labels, as sales increase for Phones, returns also rise; likewise, lower sales for Labels correspond with fewer returns. 
 3. The third chart reveals that **Utah, California, and Oregon** have the highest return rates across the United States, signaling possible regional issues such as shipping challenges or population-driven volume effects. 
 
