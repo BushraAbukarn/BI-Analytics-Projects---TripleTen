@@ -22,11 +22,28 @@ The dataset includes two primary tables:
   - `Order_ID`: Corresponds to `Order_ID` in the Orders table  
   - `Returned`: Indicates if the order was returned (`Yes`) or not (`null`)  
 
-> The Returns table is left-joined onto the Orders table to ensure all orders are preserved. A new calculated field is created where `Yes = 1` and `null = 0` to represent returns in numeric form.
-
 ---
 
 ## 🛠️ Methodology
+## 1. Data Preparation
+
+- Performed a **LEFT JOIN** between the `Orders` and `Returns` tables.  
+- Created a calculated field to encode returned orders:  
+  - `Returned = 1` if "Yes", and `0` if null.  
+- This enabled calculation of **return rate** as an average of the returned flag.
+
+## 2. Exploratory Data Analysis in Tableau
+
+- **Scatter Plot**: Analyzed correlation between total sales and total returns by product sub-category.  
+- **Bar Chart**: Visualized return rate by product category.  
+- **Customer-Level Analysis**: Filtered out one-time customers to find repeat customers with high return rates.  
+- **Geographic Analysis**: Used map visualizations to identify high return rate areas by state or city.  
+- **Time-Series Analysis**: Explored seasonality by plotting return rate trends over months.  
+- **Composite Visuals**: Created multi-dimensional charts combining:
+  - Product category vs. state  
+  - Monthly trend across customer segments
+ 
+---
 ## 🔍 Key Findings
 ### Analysis for the first dashboard:
 1. The first chart shows both Roland Murray and Hilary Holden exhibit a return rate of 100%, indicating that every item they purchase is returned. 
