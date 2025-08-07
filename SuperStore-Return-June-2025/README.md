@@ -40,8 +40,8 @@ The dataset includes two primary tables:
 - **Geographic Analysis**: Used map visualizations to identify high return rate areas by state or city.  
 - **Time-Series Analysis**: Explored seasonality by plotting return rate trends over months.  
 - **Composite Visuals**: Created multi-dimensional charts combining:
-  - Product category vs. state  
-  - Monthly trend across customer segments
+  - Product category vs. region
+  - Sub-category across customer segments
  
 ---
 ## 🔍 Key Findings
