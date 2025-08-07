@@ -29,14 +29,14 @@ The dataset includes two primary tables:
 ## 🛠️ Methodology
 ## 🔍 Key Findings
 ### Analysis for the first dashboard:
-1. The first chart shows that the Technology category has the highest return rate compared to other product categories. 
-2. The second chart highlights a positive correlation between total sales and total returns in sub-categories such as Phones and Labels, as sales increase for Phones, returns also rise; likewise, lower sales for Labels correspond with fewer returns. 
-3. The third chart reveals that Utah, California, and Oregon have the highest return rates across the United States, signaling possible regional issues such as shipping challenges or population-driven volume effects. 
-
-### Analysis for the second dashboard: 
 1. The first chart shows both Roland Murray and Hilary Holden exhibit a return rate of 100%, indicating that every item they purchase is returned. 
 2. The second chart reveals that the Western region has the highest return rate, particularly in the Office Supplies category. The Eastern region follows with a high return rate in the Technology category. In contrast, the Central region maintains the lowest return rates across all product categories, indicating more stable purchasing behavior. 
 3. The third chart indicates that the return rates tend to increase during the fall season from 2018 to 2021. This trend may be associated with back-to-school season, where higher purchase volumes of school supplies could lead to more returns.
+   
+### Analysis for the second dashboard: 
+1. The first chart shows that the Technology category has the highest return rate compared to other product categories. 
+2. The second chart highlights a positive correlation between total sales and total returns in sub-categories such as Phones and Labels, as sales increase for Phones, returns also rise; likewise, lower sales for Labels correspond with fewer returns. 
+3. The third chart reveals that Utah, California, and Oregon have the highest return rates across the United States, signaling possible regional issues such as shipping challenges or population-driven volume effects. 
 
 ## 💡 Recommendations
 1. Flag customers with consistently high return rates for follow-up, as they may require personalized support or policy review. 
