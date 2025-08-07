@@ -1,6 +1,16 @@
 ## ✨# E-commerce Conversion & Retention Analysis
 [View Google Sheet](https://docs.google.com/spreadsheets/d/1CKlvxyl5aS4Dsx1KHylFeEcdlUktrAPrUdZDe0GHd8Y/edit?gid=868644233#gid=868644233)
 
+## 🎯 Project Purpose
+
+The goal of this project is to extract actionable insights into user behavior through:
+
+- **Conversion Funnel Analysis**: To assess how effectively users move from viewing products to making purchases.
+- **Cohort Retention Analysis**: To understand how customer retention changes over time by grouping users based on their first purchase month.
+
+These insights help the business improve user engagement, optimize conversion paths, and develop targeted retention strategies.
+
+---
 
 ## 📊 Data Description
 
@@ -12,17 +22,6 @@ The dataset captures user behavior on an e-commerce platform. It includes the fo
 - `brand`; Brand or company of the product   
 - `price`; Price of the product in USD                
 - `event_date`; Date of the activity in `YYYY-MM-DD` format             
-
----
-
-## 🎯 Project Purpose
-
-The goal of this project is to extract actionable insights into user behavior through:
-
-- **Conversion Funnel Analysis**: To assess how effectively users move from viewing products to making purchases.
-- **Cohort Retention Analysis**: To understand how customer retention changes over time by grouping users based on their first purchase month.
-
-These insights help the business improve user engagement, optimize conversion paths, and develop targeted retention strategies.
 
 ---
 
