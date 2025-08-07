@@ -27,13 +27,6 @@ The dataset includes two primary tables:
 ---
 
 ## 🛠️ Methodology
-
-### 1. Data Preparation
-- Left-joined `Returns` onto `Orders` using `Order_ID`
-- Created a calculated field:
-  ```text
-  IFNULL([Returned], 0) -> 0 (not returned), 1 (returned)
-
 ## 🔍 Key Findings
 ## 💡 Recommendations
 ## 📈 Dashboards 
