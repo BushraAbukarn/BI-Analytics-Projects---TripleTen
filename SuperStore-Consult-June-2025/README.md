@@ -5,7 +5,7 @@
 3.	Top Performing Products and Categories by Profitability
 4.	Low-Performing Products and Sub-Categories by Profitability 
 5.	Revenue Analysis by State
-6.	Top 5 highest-selling products in the region with the highest revenue
+6.	Top 5 Highest-Selling Products in the Region with the Highest Revenue
 7.	Profit Contribution by Customer Segment
 
 ---
